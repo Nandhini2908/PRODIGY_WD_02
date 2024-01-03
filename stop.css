@@ -1,0 +1,77 @@
+body {
+    background: plum;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+    padding: 70px 0;
+    border: 3px;
+
+}
+
+.watch {
+    background-color: plum;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.displaytime {
+    position: relative;
+    width: 92%;
+    background: blanchedalmond;
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: black;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.options {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.options button {
+    width: 120px;
+    height: 45px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.options button:nth-last-child(2) {
+    background-color: red;
+}
+
+.options button:nth-last-child(1) {
+    background-color: darkorange;
+}
+
+.options button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
